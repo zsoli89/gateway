@@ -1,7 +1,7 @@
 package hu.webuni.gateway;
 
-import hu.webuni.security.JwtAuthFilter;
-import hu.webuni.security.JwtTokenService;
+import hu.thesis.security.JwtAuthFilter;
+import hu.thesis.security.JwtTokenService;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;

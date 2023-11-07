@@ -16,12 +16,13 @@
 	<properties>
 		<java.version>17</java.version>
 		<spring-cloud.version>2022.0.4</spring-cloud.version>
+		<securitylab.version>0.0.16-SNAPSHOT</securitylab.version>
 	</properties>
 	<dependencies>
 		<dependency>
-			<groupId>hu.webuni</groupId>
+			<groupId>hu.thesis</groupId>
 			<artifactId>securitylib</artifactId>
-			<version>0.0.8-SNAPSHOT</version>
+			<version>${securitylab.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>

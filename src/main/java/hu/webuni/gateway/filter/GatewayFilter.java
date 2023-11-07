@@ -1,7 +1,7 @@
 package hu.webuni.gateway.filter;
 
-import hu.webuni.security.JwtAuthFilter;
-import hu.webuni.security.JwtTokenService;
+import hu.thesis.security.JwtAuthFilter;
+import hu.thesis.security.JwtTokenService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.gateway.filter.GatewayFilterChain;
 import org.springframework.cloud.gateway.filter.GlobalFilter;
@@ -25,7 +25,6 @@ public class GatewayFilter implements GlobalFilter {
 
     @Autowired
     private JwtTokenService jwtTokenService;
-
     private String loginPathPattern = "/user/";
     private String orderPathPattern = "/order/";
     private String catalogPathPattern = "/catalog/";
